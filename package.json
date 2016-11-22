@@ -16,6 +16,7 @@
   },
   "main": "lib/index.js",
   "scripts": {
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "commit": "./node_modules/.bin/git-cz",
     "build": "./node_modules/.bin/babel $npm_package_config_entry --out-dir $npm_package_config_output",
     "build:watch": "npm run build -- --watch",
