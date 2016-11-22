@@ -47,6 +47,12 @@ const WeatherIcons = ({
   const classNames = [];
   classNames.push('wi');
   classNames.push(`wi-${name}`);
+  fixedWidth && classNames.push('wi-fw');
+  flip && classNames.push(`wi-flip-${flip}`);
+  rotate && classNames.push(`wi-rotate-${rotate}`);
+  size && classNames.push(`wi-size-${size}`);
+  // Add any custom class names at the end.
+  className && classNames.push(className);
   let fontSize;
   switch (size) {
     case 'lg':
@@ -69,15 +75,7 @@ const WeatherIcons = ({
       break;
   }
 
-  fixedWidth && classNames.push('wi-fw');
-
-  flip && classNames.push(`wi-flip-${flip}`);
-
-  rotate && classNames.push(`wi-rotate-${rotate}`);
-
-  // Add any custom class names at the end.
-  className && classNames.push(className);
-  return React.createElement(tag, { ...props, ariaHidden: true, className: classNames.join(' '), style: { fontSize } });
+  return React.createElement(tag, { ...props, className: classNames.join(' '), style: { fontSize } });
 };
 
 WeatherIcons.displayName = 'WeatherIcons';
