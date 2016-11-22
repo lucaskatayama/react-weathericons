@@ -1,3 +1,6 @@
+![npm](https://img.shields.io/npm/v/react-weathericons.svg)
+[![Build Status](https://travis-ci.org/lucaskatayama/react-weathericons.svg?branch=master)](https://travis-ci.org/lucaskatayama/react-weathericons)
+
 # React Weather Icons
 
 React component for [WeatherIcons](http://weathericons.io/) icons
