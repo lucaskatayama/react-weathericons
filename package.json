@@ -1,0 +1,87 @@
+{
+  "name": "react-weathericons",
+  "version": "1.0.0",
+  "description": "A React component for the weather-icons icon library.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaskatayama/react-weathericons.git"
+  },
+  "config": {
+    "entry": "src",
+    "output": "lib",
+    "mainFile": "src/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/lucaskatayama/react-weathericons/issues"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel $npm_package_config_entry --out-dir $npm_package_config_output",
+    "build:watch": "npm run build -- --watch",
+    "dist": "npm run lint && npm test && npm run build",
+    "lint": "./node_modules/.bin/eslint .",
+    "test": "./node_modules/.bin/jest",
+    "test:watch": "./node_modules/.bin/jest --watch"
+  },
+  "keywords": [
+    "react",
+    "weather-icons",
+    "weathericons",
+    "bootstrap",
+    "icons",
+    "fonts",
+    "icon",
+    "lucaskatayama",
+    "big",
+    "style",
+    "jsx",
+    "react-component",
+    "component"
+  ],
+  "author": {
+    "name": "Lucas Katayama",
+    "email": "lucas@lucaskatayama.com",
+    "url": "lucaskatayama.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-eslint": "^7.1.0",
+    "babel-jest": "^17.0.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "chai": "^3.2.0",
+    "commitizen": "^2.8.6",
+    "enzyme": "^2.6.0",
+    "eslint": "^3.10.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.7.1",
+    "jest": "^17.0.3",
+    "jsdoc-to-markdown": "^1.1.1",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0",
+    "rimraf": "^2.5.4"
+  },
+  "homepage": "",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "peerDependencies": {
+    "react": ">=0.12.0"
+  },
+  "dependencies": {},
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ]
+  }
+}
