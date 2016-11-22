@@ -1,6 +1,6 @@
 {
   "name": "react-weathericons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React component for the weather-icons icon library.",
   "repository": {
     "type": "git",
