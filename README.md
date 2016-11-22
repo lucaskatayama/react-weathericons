@@ -8,6 +8,9 @@ React component for [WeatherIcons](http://weathericons.io/) icons
 $ npm install --save react-weathericons
 ```
 
+## Important
+ You need to add your own version of Weather Icons CSS.
+
 # Usage
 
 ```javascript
