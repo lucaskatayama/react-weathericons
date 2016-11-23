@@ -1,5 +1,6 @@
-![npm](https://img.shields.io/npm/v/react-weathericons.svg)
+[![npm](https://img.shields.io/npm/v/react-weathericons.svg)](https://www.npmjs.com/package/react-weathericons)
 [![Build Status](https://travis-ci.org/lucaskatayama/react-weathericons.svg?branch=master)](https://travis-ci.org/lucaskatayama/react-weathericons)
+[![codecov](https://codecov.io/gh/lucaskatayama/react-weathericons/branch/master/graph/badge.svg)](https://codecov.io/gh/lucaskatayama/react-weathericons)
 
 # React Weather Icons
 
