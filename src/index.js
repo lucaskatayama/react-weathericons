@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export const srOnlyStyle = {
   position: 'absolute',
@@ -57,19 +58,19 @@ const WeatherIcons = ({
 
 WeatherIcons.displayName = 'WeatherIcons';
 WeatherIcons.propTypes = {
-  ariaLabel: React.PropTypes.string,
-  border: React.PropTypes.bool,
-  className: React.PropTypes.string,
-  fixedWidth: React.PropTypes.bool,
-  flip: React.PropTypes.oneOf(['horizontal', 'vertical']),
-  inverse: React.PropTypes.bool,
-  name: React.PropTypes.string.isRequired,
-  pulse: React.PropTypes.bool,
-  rotate: React.PropTypes.oneOf([90, 180, 270]),
-  size: React.PropTypes.oneOf(['lg', '2x', '3x', '4x', '5x']),
-  spin: React.PropTypes.bool,
-  stack: React.PropTypes.oneOf(['1x', '2x']),
-  tag: React.PropTypes.string,
+  ariaLabel: PropTypes.string,
+  border: PropTypes.bool,
+  className: PropTypes.string,
+  fixedWidth: PropTypes.bool,
+  flip: PropTypes.oneOf(['horizontal', 'vertical']),
+  inverse: PropTypes.bool,
+  name: PropTypes.string.isRequired,
+  pulse: PropTypes.bool,
+  rotate: PropTypes.oneOf([90, 180, 270]),
+  size: PropTypes.oneOf(['lg', '2x', '3x', '4x', '5x']),
+  spin: PropTypes.bool,
+  stack: PropTypes.oneOf(['1x', '2x']),
+  tag: PropTypes.string,
 };
 
 export default WeatherIcons;
